@@ -1,0 +1,88 @@
+.logo{
+    width: 100px;
+    height: 110px;
+    margin: 50px auto;
+}
+.menu{
+    background-color: #005891;
+    text-align: center;/*글씨 가운데로*/
+    height: 50px;/*배경높이*/
+    line-height: 50px;/*배경에서 글자높이*/
+    margin: 30px 0; /*로고와 메뉴사이 간격,메뉴와 밑 사진의 간격 상하30, 좌우0*/
+}
+.menu a {
+    color: white;
+    text-decoration: none;/*텍스트꾸밈 없음-밑줄 없음*/
+    margin:10px;/*글자 간의 간격*/
+    font-size: 14px;/*글자 크기*/
+    font-weight: bold;/*글자를 두껍게*/
+}
+.menu a:hover{ /*의사(pseudo-class 선택자) 구글에 css의사선택자 검색해보기*/
+    color: #fcff00;
+}
+.background{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin: 50px 0;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 22px;
+}
+.title p{
+    font-size: 16px;
+    color: #555;
+    margin: 10px;
+}
+
+.Clips{
+    text-align: center;
+    font-size: 0;/*글자-크기 0 (없음, 표시x 글자마다 생성되는 여백 없음)*/
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.social_media{
+    text-align: center;
+    margin: 100px 0;
+}
+.social_media a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.social_media a:nth-child(4){
+    margin-right: 0;
+}
+.contact{
+    text-align: center;
+}
+.contact h2{
+    font-size: 15px;
+    color: #005891;
+    text-transform: uppercase;/*대문자로 변환- 소문자는 lowercase*/
+}
+.contact p{
+    font-weight: bold;
+    font-size: 30px;
+    color: #005891;
+}
+hr{
+    margin: 50px 0;
+    height: 1px;
+    background-color:#005891;
+    border: 0;
+}
+.info{
+    text-align: center;
+}
+.info p:nth-child(1){
+    font-size: 13px;
+}
+.info p:nth-child(2){
+    margin: 11px;
+    font-size: 11px;
+}
