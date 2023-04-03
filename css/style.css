@@ -86,3 +86,29 @@ hr{
     margin: 11px;
     font-size: 10px;
 }
+/*media query*/
+@media screen and (max-width:360px) {
+    .menu{
+        margin: 30px 0 20px auto;
+    }
+    .background img{
+        width: 100%;
+    }
+   
+    .background{
+        height: auto;
+    }
+    .Clips {
+        max-width: 300px;
+        flex-direction: column;
+    }
+    hr{
+        margin: 30px 0 0 0;
+    }
+    .info{
+        background-color: #005891;
+        color: white;
+        padding: 40px;
+    }
+
+}
